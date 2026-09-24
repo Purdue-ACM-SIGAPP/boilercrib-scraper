@@ -1,0 +1,31 @@
+[project]
+name = "boilercrib-scraper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "LukasAnell", email = "lukasmanell@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "httpx>=0.28.1",
+    "lxml>=6.1.3",
+    "pdfplumber>=0.11.10",
+    "pydantic>=2.13.5",
+    "rapidfuzz>=3.14.6",
+]
+
+[project.scripts]
+boilercrib-scraper = "boilercrib_scraper:main"
+
+[build-system]
+requires = ["uv_build>=0.11.15,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "black>=26.5.1",
+    "pytest>=9.1.1",
+    "ruff>=0.16.9",
+]
