@@ -7,7 +7,7 @@ from pydantic import BaseModel, ConfigDict, Field
 
 
 class Building(BaseModel):
-    _id             : str | None = None
+    id              : str | None = None
     name            : str | None = None
     acronym         : str | None = None
     address         : str | None = None
@@ -30,7 +30,7 @@ class DinningCourt(Building):
 
 
 class Events(BaseModel):
-    _id         : str | None = None
+    id          : str | None = None
     eventName   : str | None = None
     summary     : str | None = None
     content     : str | None = None
@@ -74,7 +74,7 @@ class Review(BaseModel):
     MIN_RATING: ClassVar[int] = 1
     MAX_RATING: ClassVar[int] = 10
 
-    _id         : str | None = None
+    id          : str | None = None
     userId      : str | None = None
     description : str | None = None
     createdAt   : datetime | None = None
@@ -89,7 +89,7 @@ class Review(BaseModel):
 
 # Don't think we'll need this
 # class User(BaseModel):
-#     _id: str | None = None
+#     id: str | None = None
 #     username: str | None = None
 #     password: str | None = None
 #     name: str | None = None
