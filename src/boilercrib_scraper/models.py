@@ -36,12 +36,19 @@ class Events(BaseModel):
 
 
 class Room(BaseModel):
+    # Does not currently distinguish between capacity per bedroom or capacity per room
     capacity        : int | None
     features        : list[str] | None
     cost            : float | None
     housingRate     : float | None
     isSharedBathroom: bool | None
     buildingId      : str | None
+
+    # Fields that don't exist in the backend yet:
+    # category: str | None
+    # # Couldn't find any instance where period is not "Academic Year" 
+    # period: str | None  
+    # airConditioning: bool | None
 
 
 class Housing(Building):
