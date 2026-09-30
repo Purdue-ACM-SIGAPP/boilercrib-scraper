@@ -3,7 +3,7 @@
 from datetime import datetime
 from typing import ClassVar
 
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class Building(BaseModel):
@@ -16,6 +16,8 @@ class Building(BaseModel):
     image           : str | None
     buildingType    : str | None
 
+    model_config = ConfigDict(extra='forbid')
+
 
 class DinningCourt(Building):
     stableOptions       : list[str] | None
@@ -23,6 +25,8 @@ class DinningCourt(Building):
     busyHours           : list[str] | None
     acceptsDiningDollars: bool | None
     acceptsBoilerExpress: bool | None
+
+    model_config = ConfigDict(extra='forbid')
 
 
 class Events(BaseModel):
@@ -33,6 +37,8 @@ class Events(BaseModel):
     userID      : str | None
     date        : datetime | None
     address     : str | None
+
+    model_config = ConfigDict(extra='forbid')
 
 
 class Room(BaseModel):
@@ -50,6 +56,8 @@ class Room(BaseModel):
     # period: str | None  
     # airConditioning: bool | None
 
+    model_config = ConfigDict(extra='forbid')
+
 
 class Housing(Building):
     rooms           : list[Room] | None
@@ -58,6 +66,8 @@ class Housing(Building):
     haveDinningCourt: bool | None
     haveBoilerMarket: bool | None
     studySpaceNum   : int | None
+
+    model_config = ConfigDict(extra='forbid')
 
 
 class Review(BaseModel):
@@ -73,6 +83,8 @@ class Review(BaseModel):
     dislikeCount: int | None
     flagged     : bool | None
     buildingId  : str | None
+
+    model_config = ConfigDict(extra='forbid')
 
 
 # Don't think we'll need this
