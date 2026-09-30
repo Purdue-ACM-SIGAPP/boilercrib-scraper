@@ -1,9 +1,9 @@
 """Models for the data"""
 
 from datetime import datetime
-from typing import ClassVar
+from typing import Annotated, ClassVar
 
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class Building(BaseModel):
@@ -78,7 +78,7 @@ class Review(BaseModel):
     userId      : str | None = None
     description : str | None = None
     createdAt   : datetime | None = None
-    rating      : int | None = None
+    rating      : Annotated[int | None, Field(ge=MIN_RATING, le=MAX_RATING)] = None
     likeCount   : int | None = None
     dislikeCount: int | None = None
     flagged     : bool | None = None
