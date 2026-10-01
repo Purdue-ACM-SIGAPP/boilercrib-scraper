@@ -1,0 +1,324 @@
+Room Type ID,Room Type,Term,Housing Type,Category,Period,Amount,Term Description,Building,Location,UR Boiler Apartment,Capacity,Air Conditioning,Bath
+104,Apt 1 Bdrm for 1 w/AC,2025-26,Undergraduate Housing,1 BR Apt,Academic Year,17368,Academic Year 2025-26,3rd and West (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+104,Apt 1 Bdrm for 1 w/AC,2025-26,Undergraduate Housing,1 BR Apt,Academic Year,20894,Academic Year 2025-26,Fuse (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+104,Apt 1 Bdrm for 1 w/AC,2025-26,Undergraduate Housing,1 BR Apt,Academic Year,13092,Academic Year 2025-26,Waldron 125 (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+104,Apt 1 Bdrm for 1 w/AC,2025-26,Undergraduate Housing,1 BR Apt,Academic Year,10500,Academic Year 2025-26,Waldron Square (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+105,Apt 2 Bdrm for 2 w/AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,9918,Academic Year 2025-26,Waldron 125 (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+106,Apt 3 Bdrm for 3 w/AC,2025-26,Undergraduate Housing,3 BR Apt,Academic Year,9918,Academic Year 2025-26,Waldron 125 (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+108,Apt 1 Bdrm for 1 small AC,2025-26,Undergraduate Housing,1 BR Apt,Academic Year,10500,Academic Year 2025-26,Russell 414 (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+108,Apt 1 Bdrm for 1 small AC,2025-26,Undergraduate Housing,1 BR Apt,Academic Year,12562,Academic Year 2025-26,Waldron 19 (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+109,Apt 2 Bdrm for 2-2bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,14800,Academic Year 2025-26,3rd and West (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+109,Apt 2 Bdrm for 2-2bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,15400,Academic Year 2025-26,Aspire Apartments,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+109,Apt 2 Bdrm for 2-2bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,16504,Academic Year 2025-26,Fuse (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+109,Apt 2 Bdrm for 2-2bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,8140,Academic Year 2025-26,Russell 414 (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+109,Apt 2 Bdrm for 2-2bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,9918,Academic Year 2025-26,Waldron 19 (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+10,Small Double,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,3600,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,2/Room,FALSE,FALSE
+110,Apt 2 Bdrm for 2-1bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,14976,Academic Year 2025-26,Aspire Apartments,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+110,Apt 2 Bdrm for 2-1bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,7252,Academic Year 2025-26,Grant 333 (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+110,Apt 2 Bdrm for 2-1bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,8140,Academic Year 2025-26,Russell 414 (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+110,Apt 2 Bdrm for 2-1bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,7252,Academic Year 2025-26,Steely 410 (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+111,Apt 1 Bdrm for 2-1bath AC,2025-26,Undergraduate Housing,1 BR Apt,Academic Year,11050,Academic Year 2025-26,3rd and West (UR Apts),West Lafayette,TRUE,2/Bedroom,TRUE,TRUE
+111,Apt 1 Bdrm for 2-1bath AC,2025-26,Undergraduate Housing,1 BR Apt,Academic Year,12266,Academic Year 2025-26,Provenance (UR Apts),West Lafayette,TRUE,2/Bedroom,TRUE,TRUE
+112,Apt 2 Bdrm for 4-2bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,10500,Academic Year 2025-26,3rd and West (UR Apts),West Lafayette,TRUE,2/Bedroom,TRUE,TRUE
+112,Apt 2 Bdrm for 4-2bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,9240,Academic Year 2025-26,Frieda Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+112,Apt 2 Bdrm for 4-2bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,9240,Academic Year 2025-26,Honors College Residences,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+112,Apt 2 Bdrm for 4-2bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,11500,Academic Year 2025-26,Provenance (UR Apts),West Lafayette,TRUE,2/Bedroom,TRUE,TRUE
+112,Apt 2 Bdrm for 4-2bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,9240,Academic Year 2025-26,Shreve Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+112,Apt 2 Bdrm for 4-2bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,9240,Academic Year 2025-26,Winifred Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+116,Apt 4 Bdrm for 4-4bath AC,2025-26,Undergraduate Housing,4 BR Apt,Academic Year,14600,Academic Year 2025-26,3rd and West (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+116,Apt 4 Bdrm for 4-4bath AC,2025-26,Undergraduate Housing,4 BR Apt,Academic Year,14600,Academic Year 2025-26,Aspire Apartments,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+116,Apt 4 Bdrm for 4-4bath AC,2025-26,Undergraduate Housing,4 BR Apt,Academic Year,15954,Academic Year 2025-26,Fuse (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+11,Small Single,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,7200,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,1/Room,FALSE,FALSE
+12,Standard Single,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,8068,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,1/Room,FALSE,FALSE
+12,Standard Single,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,8068,Academic Year 2025-26,Meredith Hall,West Lafayette,FALSE,1/Room,FALSE,FALSE
+139,Apt 4 Bdrm for 4-2bath AC,2025-26,Undergraduate Housing,4 BR Apt,Academic Year,14300,Academic Year 2025-26,Aspire Apartments,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+139,Apt 4 Bdrm for 4-2bath AC,2025-26,Undergraduate Housing,4 BR Apt,Academic Year,11115,Academic Year 2025-26,Benchmark II (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+139,Apt 4 Bdrm for 4-2bath AC,2025-26,Undergraduate Housing,4 BR Apt,Academic Year,15954,Academic Year 2025-26,Fuse (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+13,Double 2 rooms,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,4250,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,2,FALSE,FALSE
+140,Triple w/priv bath & AC,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,5874,Academic Year 2025-26,Windsor Halls,West Lafayette,FALSE,3/Room,TRUE,TRUE
+141,Triple w/shrd bath & AC,2025-26,Undergraduate Housing,Semi-Suite - Triple,Academic Year,4840,Academic Year 2025-26,Hillenbrand Hall,West Lafayette,FALSE,3/Bedroom,TRUE,TRUE
+141,Triple w/shrd bath & AC,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,5874,Academic Year 2025-26,Windsor Halls,West Lafayette,FALSE,3/Room,TRUE,TRUE
+142,Single w/priv half-bth&AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,8068,Academic Year 2025-26,Windsor Halls,West Lafayette,FALSE,1/Room,TRUE,TRUE
+143,2 Rm Ste for 4 Pri Bth AC,2025-26,Undergraduate Housing,Full Suite - Double,Academic Year,5800,Academic Year 2025-26,Windsor Halls,West Lafayette,FALSE,4,TRUE,TRUE
+14,Double Large,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,4250,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,2/Room,FALSE,FALSE
+157,Apt 4 Bd for 4-1.5 Bth AC,2025-26,Undergraduate Housing,4 BR Apt,Academic Year,10961,Academic Year 2025-26,Benchmark II (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+157,Apt 4 Bd for 4-1.5 Bth AC,2025-26,Undergraduate Housing,4 BR Apt,Academic Year,9900,Academic Year 2025-26,Waldron Square (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+15,Triple w/bath,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,4376,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,3/Room,FALSE,TRUE
+15,Triple w/bath,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,4376,Academic Year 2025-26,Owen Hall,West Lafayette,FALSE,3/Room,FALSE,TRUE
+15,Triple w/bath,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,4376,Academic Year 2025-26,Tarkington Hall,West Lafayette,FALSE,3/Room,FALSE,TRUE
+15,Triple w/bath,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,4376,Academic Year 2025-26,Wiley Hall,West Lafayette,FALSE,3/Room,FALSE,TRUE
+16,Triple,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,2750,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,3/Room,FALSE,FALSE
+16,Triple,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,3118,Academic Year 2025-26,Owen Hall,West Lafayette,FALSE,3/Room,FALSE,FALSE
+16,Triple,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,3118,Academic Year 2025-26,Tarkington Hall,West Lafayette,FALSE,3/Room,FALSE,FALSE
+16,Triple,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,3118,Academic Year 2025-26,Wiley Hall,West Lafayette,FALSE,3/Room,FALSE,FALSE
+17,Standard Double w/AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,5476,Academic Year 2025-26,Earhart Hall,West Lafayette,FALSE,2/Room,TRUE,FALSE
+17,Standard Double w/AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,5476,Academic Year 2025-26,Harrison Hall,West Lafayette,FALSE,2/Room,TRUE,FALSE
+17,Standard Double w/AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,5476,Academic Year 2025-26,McCutcheon Hall,West Lafayette,FALSE,2/Room,TRUE,FALSE
+17,Standard Double w/AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,5476,Academic Year 2025-26,Shreve Hall,West Lafayette,FALSE,2/Room,TRUE,FALSE
+18,Standard Dbl w/bath & AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,5476,Academic Year 2025-26,Earhart Hall,West Lafayette,FALSE,2/Room,TRUE,TRUE
+18,Standard Dbl w/bath & AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,5476,Academic Year 2025-26,Shreve Hall,West Lafayette,FALSE,2/Room,TRUE,TRUE
+192,Quad Plus,2025-26,Undergraduate Housing,Traditional - Quad,Academic Year,3520,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,5-8/Room,FALSE,FALSE
+193,Quad Plus w/AC,2025-26,Undergraduate Housing,Traditional - Quad,Academic Year,3676,Academic Year 2025-26,Harrison Hall,West Lafayette,FALSE,6/Room,TRUE,FALSE
+193,Quad Plus w/AC,2025-26,Undergraduate Housing,Traditional - Quad,Academic Year,3676,Academic Year 2025-26,Hawkins Hall,West Lafayette,FALSE,6/Room,TRUE,FALSE
+193,Quad Plus w/AC,2025-26,Undergraduate Housing,Traditional - Quad,Academic Year,3676,Academic Year 2025-26,McCutcheon Hall,West Lafayette,FALSE,6-8/Room,TRUE,FALSE
+196,Quad,2025-26,Undergraduate Housing,Traditional - Quad,Academic Year,3520,Academic Year 2025-26,Owen Hall,West Lafayette,FALSE,4/Room,FALSE,FALSE
+196,Quad,2025-26,Undergraduate Housing,Traditional - Quad,Academic Year,3520,Academic Year 2025-26,Wiley Hall,West Lafayette,FALSE,4/Room,FALSE,FALSE
+1,Double,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,3884,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,2/Room,FALSE,FALSE
+1,Double,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,3884,Academic Year 2025-26,Meredith Hall,West Lafayette,FALSE,2/Room,FALSE,FALSE
+203,Apt 4 Bd for 4-2.5 Bth AC,2025-26,Undergraduate Housing,4 BR Apt,Academic Year,11169,Academic Year 2025-26,Benchmark II (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+204,Apt Studio w/AC,2025-26,Undergraduate Housing,Studio Apt,Academic Year,16600,Academic Year 2025-26,3rd and West (UR Apts),West Lafayette,TRUE,1/Room,TRUE,TRUE
+204,Apt Studio w/AC,2025-26,Undergraduate Housing,Studio Apt,Academic Year,16600,Academic Year 2025-26,Aspire Apartments,West Lafayette,FALSE,1/Room,TRUE,TRUE
+204,Apt Studio w/AC,2025-26,Undergraduate Housing,Studio Apt,Academic Year,19118,Academic Year 2025-26,Fuse (UR Apts),West Lafayette,TRUE,1/Room,TRUE,TRUE
+205,Suite for 6 w/bath AC,2025-26,Undergraduate Housing,Full Suite - Triple,Academic Year,5672,Academic Year 2025-26,Winifred Parker Hall,West Lafayette,FALSE,3/Bedroom,TRUE,TRUE
+20,Triple w/bath & AC,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,5538,Academic Year 2025-26,Harrison Hall,West Lafayette,FALSE,3/Room,TRUE,TRUE
+20,Triple w/bath & AC,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,5538,Academic Year 2025-26,McCutcheon Hall,West Lafayette,FALSE,3/Room,TRUE,TRUE
+21,Single w/shower & AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,8068,Academic Year 2025-26,Hawkins Hall,West Lafayette,FALSE,1/Room,TRUE,TRUE
+22,Single w/AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,5750,Academic Year 2025-26,Hawkins Hall,West Lafayette,FALSE,1/Room,TRUE,FALSE
+22,Single w/AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,11000,Academic Year 2025-26,Honors College Residences,West Lafayette,FALSE,1/Room,TRUE,FALSE
+22,Single w/AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,11000,Academic Year 2025-26,Meredith South,West Lafayette,FALSE,1/Room,TRUE,FALSE
+22,Single w/AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,8068,Academic Year 2025-26,Wiley Hall,West Lafayette,FALSE,1/Room,TRUE,FALSE
+22,Single w/AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,8068,Academic Year 2025-26,Windsor Halls,West Lafayette,FALSE,1/Room,TRUE,FALSE
+23,Single w/bath & AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,8068,Academic Year 2025-26,Hawkins Hall,West Lafayette,FALSE,1/Room,TRUE,TRUE
+24,Small Single w/AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,5750,Academic Year 2025-26,Hawkins Hall,West Lafayette,FALSE,1/Room,TRUE,FALSE
+24,Small Single w/AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,6744,Academic Year 2025-26,Shreve Hall,West Lafayette,FALSE,1/Room,TRUE,FALSE
+25,Double w/AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,5476,Academic Year 2025-26,Hawkins Hall,West Lafayette,FALSE,2/Room,TRUE,FALSE
+25,Double w/AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,7550,Academic Year 2025-26,Honors College Residences,West Lafayette,FALSE,2/Room,TRUE,FALSE
+25,Double w/AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,7550,Academic Year 2025-26,Meredith South,West Lafayette,FALSE,2/Room,TRUE,FALSE
+25,Double w/AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,5476,Academic Year 2025-26,Windsor Halls,West Lafayette,FALSE,2/Room,TRUE,FALSE
+26,Single w/shower bath & AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,8068,Academic Year 2025-26,Hawkins Hall,West Lafayette,FALSE,1/Room,TRUE,TRUE
+2,Double w/shrd bath & AC,2025-26,Undergraduate Housing,Semi-Suite - Double,Academic Year,6600,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+2,Double w/shrd bath & AC,2025-26,Undergraduate Housing,Semi-Suite - Double,Academic Year,6140,Academic Year 2025-26,Hawkins Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+2,Double w/shrd bath & AC,2025-26,Undergraduate Housing,Semi-Suite - Double,Academic Year,6600,Academic Year 2025-26,Hillenbrand Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+2,Double w/shrd bath & AC,2025-26,Undergraduate Housing,Semi-Suite - Double,Academic Year,6400,Academic Year 2025-26,Windsor Halls,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+32,Apt 1 Bdrm for 2 w/AC,2025-26,Undergraduate Housing,1 BR Apt,Academic Year,7970,Academic Year 2025-26,Hilltop Apartments,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+33,Apt 1 Bd for 2 w/Alc & AC,2025-26,Undergraduate Housing,1 BR Apt,Academic Year,7970,Academic Year 2025-26,Hilltop Apartments,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+34,Apt 1 Bdrm for 3 w/AC,2025-26,Undergraduate Housing,1 BR Apt,Academic Year,5496,Academic Year 2025-26,Hawkins Hall,West Lafayette,FALSE,3/Bedroom,TRUE,TRUE
+34,Apt 1 Bdrm for 3 w/AC,2025-26,Undergraduate Housing,1 BR Apt,Academic Year,5496,Academic Year 2025-26,Hilltop Apartments,West Lafayette,FALSE,3/Bedroom,TRUE,TRUE
+362,Apt 2Bd for 3-Sng/Shd-2Ba,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,15200,Academic Year 2025-26,Aspire Apartments,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+363,Apt 2Bd for 3-Dbl/Shd-2Ba,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,9240,Academic Year 2025-26,Aspire Apartments,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+364,Apt 4Bd for 8-Dbl/Shd-2Ba,2025-26,Undergraduate Housing,4 BR Apt,Academic Year,8580,Academic Year 2025-26,Aspire Apartments,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+365,Apt 4Bd for 8-Dbl/Shd-4Ba,2025-26,Undergraduate Housing,4 BR Apt,Academic Year,8760,Academic Year 2025-26,Aspire Apartments,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+36,Double w/bath,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,3884,Academic Year 2025-26,Meredith Hall,West Lafayette,FALSE,2/Room,FALSE,TRUE
+375,Apt Studio for 2 w/AC,2025-26,Undergraduate Housing,Studio Apt,Academic Year,9960,Academic Year 2025-26,Aspire Apartments,West Lafayette,FALSE,2/Room,TRUE,TRUE
+375,Apt Studio for 2 w/AC,2025-26,Undergraduate Housing,Studio Apt,Academic Year,6250,Academic Year 2025-26,Hilltop Apartments,West Lafayette,FALSE,2/Room,TRUE,TRUE
+37,2 Room Suite for 2 w/bth,2025-26,Undergraduate Housing,Full Suite - Double,Academic Year,5800,Academic Year 2025-26,Meredith Hall,West Lafayette,FALSE,2,FALSE,TRUE
+384,Suite Semi for 6/bath AC,2025-26,Undergraduate Housing,Semi-Suite - Triple,Academic Year,5586,Academic Year 2025-26,Winifred Parker Hall,West Lafayette,FALSE,3/Bedroom,TRUE,TRUE
+385,Apt 2 Bdrm for 6-2bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,7450,Academic Year 2025-26,Honors College Residences,West Lafayette,FALSE,3/Bedroom,TRUE,TRUE
+385,Apt 2 Bdrm for 6-2bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,7450,Academic Year 2025-26,Winifred Parker Hall,West Lafayette,FALSE,3/Bedroom,TRUE,TRUE
+38,Standard Double,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,4250,Academic Year 2025-26,Owen Hall,West Lafayette,FALSE,2/Room,FALSE,FALSE
+38,Standard Double,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,4250,Academic Year 2025-26,Tarkington Hall,West Lafayette,FALSE,2/Room,FALSE,FALSE
+38,Standard Double,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,4250,Academic Year 2025-26,Wiley Hall,West Lafayette,FALSE,2/Room,FALSE,FALSE
+390,Apt 2 Bdrm for 7-2Bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,7450,Academic Year 2025-26,Frieda Parker Hall,West Lafayette,FALSE,4/Bedroom,TRUE,TRUE
+393,Apt 2 Bdrm for 8-2bath AC,2025-26,Undergraduate Housing,2 BR Apt,Academic Year,7450,Academic Year 2025-26,Shreve Hall,West Lafayette,FALSE,4/Bedroom,TRUE,TRUE
+394,Apt 3BD for 4-Dbl/Shd-3Ba,2025-26,Undergraduate Housing,3 BR Apt,Academic Year,9840,Academic Year 2025-26,Provenance (UR Apts),West Lafayette,TRUE,2/Bedroom,TRUE,TRUE
+395,Apt 3BD for 4-Sng/Shd-3Ba,2025-26,Undergraduate Housing,3 BR Apt,Academic Year,15200,Academic Year 2025-26,Provenance (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+396,Small Triple w/AC,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,5648,Academic Year 2025-26,Honors College Residences,West Lafayette,FALSE,3/Room,TRUE,FALSE
+397,Small Quad w/AC,2025-26,Undergraduate Housing,Traditional - Quad,Academic Year,4776,Academic Year 2025-26,Honors College Residences,West Lafayette,FALSE,4/Room,TRUE,FALSE
+39,Single w/bath,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,8068,Academic Year 2025-26,Owen Hall,West Lafayette,FALSE,1/Room,FALSE,TRUE
+39,Single w/bath,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,8068,Academic Year 2025-26,Tarkington Hall,West Lafayette,FALSE,1/Room,FALSE,TRUE
+39,Single w/bath,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,8068,Academic Year 2025-26,Wiley Hall,West Lafayette,FALSE,1/Room,FALSE,TRUE
+3,Small Dbl shrd bath w/AC,2025-26,Undergraduate Housing,Semi-Suite - Double,Academic Year,6600,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+47,Triple/Suite w/bath & AC,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,5874,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,3/Room,TRUE,TRUE
+48,Small Double w/AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,4176,Academic Year 2025-26,Earhart Hall,West Lafayette,FALSE,2/Room,TRUE,FALSE
+48,Small Double w/AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,6052,Academic Year 2025-26,Honors College Residences,West Lafayette,FALSE,2/room,TRUE,FALSE
+48,Small Double w/AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,3992,Academic Year 2025-26,Shreve Hall,West Lafayette,FALSE,2/Room,TRUE,FALSE
+48,Small Double w/AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,4250,Academic Year 2025-26,Windsor Halls,West Lafayette,FALSE,2/Room,TRUE,FALSE
+49,Large Double w/AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,7550,Academic Year 2025-26,Windsor Halls,West Lafayette,FALSE,2/Room,TRUE,FALSE
+4,Double w/priv bath & AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,7232,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,2/Room,TRUE,TRUE
+4,Double w/priv bath & AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,6052,Academic Year 2025-26,First Street Towers,West Lafayette,FALSE,2/Room,TRUE,TRUE
+4,Double w/priv bath & AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,5476,Academic Year 2025-26,Windsor Halls,West Lafayette,FALSE,2/Room,TRUE,TRUE
+54,Triple w/AC,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,4016,Academic Year 2025-26,Earhart Hall,West Lafayette,FALSE,3/Room,TRUE,FALSE
+54,Triple w/AC,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,4016,Academic Year 2025-26,Harrison Hall,West Lafayette,FALSE,3/Room,TRUE,FALSE
+54,Triple w/AC,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,5874,Academic Year 2025-26,Honors College Residences,West Lafayette,FALSE,3/Room,TRUE,FALSE
+54,Triple w/AC,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,4016,Academic Year 2025-26,McCutcheon Hall,West Lafayette,FALSE,3/Room,TRUE,FALSE
+54,Triple w/AC,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,5648,Academic Year 2025-26,Meredith South,West Lafayette,FALSE,3/Room,TRUE,FALSE
+54,Triple w/AC,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,4376,Academic Year 2025-26,Owen Hall,West Lafayette,FALSE,3/Room,TRUE,FALSE
+54,Triple w/AC,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,4016,Academic Year 2025-26,Shreve Hall,West Lafayette,FALSE,3/Room,TRUE,FALSE
+54,Triple w/AC,2025-26,Undergraduate Housing,Traditional - Triple,Academic Year,4376,Academic Year 2025-26,Windsor Halls,West Lafayette,FALSE,3/Room,TRUE,FALSE
+6,Single w/shrd bath & AC,2025-26,Undergraduate Housing,Semi-Suite - Single,Academic Year,10500,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+6,Single w/shrd bath & AC,2025-26,Undergraduate Housing,Semi-Suite - Single,Academic Year,10500,Academic Year 2025-26,Hillenbrand Hall,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+6,Single w/shrd bath & AC,2025-26,Undergraduate Housing,Semi-Suite - Single,Academic Year,10500,Academic Year 2025-26,Windsor Halls,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+75,Suite w/shrd bath AC,2025-26,Undergraduate Housing,Full Suite - Double,Academic Year,7732,Academic Year 2025-26,Frieda Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+75,Suite w/shrd bath AC,2025-26,Undergraduate Housing,Full Suite - Double,Academic Year,7732,Academic Year 2025-26,Winifred Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+76,Suite semi w/shrd bath AC,2025-26,Undergraduate Housing,Semi-Suite - Double,Academic Year,7616,Academic Year 2025-26,Frieda Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+76,Suite Semi w/shrd bath AC,2025-26,Undergraduate Housing,Semi-Suite - Double,Academic Year,7616,Academic Year 2025-26,Winifred Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+7,Single w/priv bath & AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,11000,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,1/Room,TRUE,TRUE
+7,Single w/priv bath & AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,11000,Academic Year 2025-26,First Street Towers,West Lafayette,FALSE,1/Room,TRUE,TRUE
+7,Single w/priv bath & AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,8068,Academic Year 2025-26,Hawkins Hall,West Lafayette,FALSE,1/Room,TRUE,TRUE
+7,Single w/priv bath & AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,11000,Academic Year 2025-26,Meredith South,West Lafayette,FALSE,1/Room,TRUE,TRUE
+7,Single w/priv bath & AC,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,11000,Academic Year 2025-26,Windsor Halls,West Lafayette,FALSE,1/Room,TRUE,TRUE
+8,Large Dbl priv bath w/AC,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,7550,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,2/Room,TRUE,TRUE
+97,Quad w/AC,2025-26,Undergraduate Housing,Traditional - Quad,Academic Year,4486,Academic Year 2025-26,Harrison Hall,West Lafayette,FALSE,4/Room,TRUE,FALSE
+97,Quad w/AC,2025-26,Undergraduate Housing,Traditional - Quad,Academic Year,4776,Academic Year 2025-26,Honors College Residences,West Lafayette,FALSE,4/Room,TRUE,FALSE
+97,Quad w/AC,2025-26,Undergraduate Housing,Traditional - Quad,Academic Year,4486,Academic Year 2025-26,McCutcheon Hall,West Lafayette,FALSE,4/Room,TRUE,FALSE
+97,Quad w/AC,2025-26,Undergraduate Housing,Traditional - Quad,Academic Year,4810,Academic Year 2025-26,Meredith South,West Lafayette,FALSE,4/Room,TRUE,FALSE
+97,Quad w/AC,2025-26,Undergraduate Housing,Traditional - Quad,Academic Year,3676,Academic Year 2025-26,Tarkington Hall,West Lafayette,FALSE,4/Room,TRUE,FALSE
+9,Large Dbl shrd bath w/AC,2025-26,Undergraduate Housing,Semi-Suite - Double,Academic Year,7616,Academic Year 2025-26,Cary Quadrangle,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+104,Apt 1 Bdrm for 1 w/AC,2026-27,Undergraduate Housing,1 BR Apt,Academic Year,18150,Academic Year 2026-27,3rd and West (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+111,Apt 1 Bdrm for 2-1bath AC,2026-27,Undergraduate Housing,1 BR Apt,Academic Year,11548,Academic Year 2026-27,3rd and West (UR Apts),West Lafayette,TRUE,2/Bedroom,TRUE,TRUE
+109,Apt 2 Bdrm for 2-2bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,15466,Academic Year 2026-27,3rd and West (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+112,Apt 2 Bdrm for 4-2bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,10974,Academic Year 2026-27,3rd and West (UR Apts),West Lafayette,TRUE,2/Bedroom,TRUE,TRUE
+116,Apt 4 Bdrm for 4-4bath AC,2026-27,Undergraduate Housing,4 BR Apt,Academic Year,14630,Academic Year 2026-27,3rd and West (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+204,Apt Studio w/AC,2026-27,Undergraduate Housing,Studio Apt,Academic Year,16616,Academic Year 2026-27,3rd and West (UR Apts),West Lafayette,TRUE,1/Room,TRUE,TRUE
+110,Apt 2 Bdrm for 2-1bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,14976,Academic Year 2026-27,Aspire Apartments,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+109,Apt 2 Bdrm for 2-2bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,15400,Academic Year 2026-27,Aspire Apartments,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+363,Apt 2Bd for 3-Dbl/Shd-2Ba,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,9240,Academic Year 2026-27,Aspire Apartments,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+362,Apt 2Bd for 3-Sng/Shd-2Ba,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,15200,Academic Year 2026-27,Aspire Apartments,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+139,Apt 4 Bdrm for 4-2bath AC,2026-27,Undergraduate Housing,4 BR Apt,Academic Year,14300,Academic Year 2026-27,Aspire Apartments,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+116,Apt 4 Bdrm for 4-4bath AC,2026-27,Undergraduate Housing,4 BR Apt,Academic Year,14600,Academic Year 2026-27,Aspire Apartments,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+364,Apt 4Bd for 8-Dbl/Shd-2Ba,2026-27,Undergraduate Housing,4 BR Apt,Academic Year,8580,Academic Year 2026-27,Aspire Apartments,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+365,Apt 4Bd for 8-Dbl/Shd-4Ba,2026-27,Undergraduate Housing,4 BR Apt,Academic Year,8760,Academic Year 2026-27,Aspire Apartments,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+375,Apt Studio for 2 w/AC,2026-27,Undergraduate Housing,Studio Apt,Academic Year,9960,Academic Year 2026-27,Aspire Apartments,West Lafayette,FALSE,2/Room,TRUE,TRUE
+204,Apt Studio w/AC,2026-27,Undergraduate Housing,Studio Apt,Academic Year,16600,Academic Year 2026-27,Aspire Apartments,West Lafayette,FALSE,1/Room,TRUE,TRUE
+157,Apt 4 Bd for 4-1.5 Bth AC,2026-27,Undergraduate Housing,4 BR Apt,Academic Year,11290,Academic Year 2026-27,Benchmark II (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+203,Apt 4 Bd for 4-2.5 Bth AC,2026-27,Undergraduate Housing,4 BR Apt,Academic Year,11504,Academic Year 2026-27,Benchmark II (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+139,Apt 4 Bdrm for 4-2bath AC,2026-27,Undergraduate Housing,4 BR Apt,Academic Year,11450,Academic Year 2026-27,Benchmark II (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+188,Apt 2 Bdrm 1.5 Bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,15110,Academic Year 2026-27,Blackbird Farms (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+109,Apt 2 Bdrm for 2-2bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,15110,Academic Year 2026-27,Blackbird Farms (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+1,Double,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,4272,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,2/Room,FALSE,FALSE
+13,Double 2 rooms,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,4506,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,2,FALSE,FALSE
+14,Double Large,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,4506,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,2/Room,FALSE,FALSE
+4,Double w/priv bath & AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,7955,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,2/Room,TRUE,TRUE
+2,Double w/shrd bath & AC,2026-27,Undergraduate Housing,Semi-Suite - Double,Academic Year,6996,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+8,Large Dbl priv bath w/AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,7975,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,2/Room,TRUE,TRUE
+9,Large Dbl shrd bath w/AC,2026-27,Undergraduate Housing,Semi-Suite - Double,Academic Year,8000,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+192,Quad Plus,2026-27,Undergraduate Housing,Traditional - Quad,Academic Year,4930,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,5-8/Room,FALSE,FALSE
+7,Single w/priv bath & AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,11500,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,1/Room,TRUE,TRUE
+6,Single w/shrd bath & AC,2026-27,Undergraduate Housing,Semi-Suite - Single,Academic Year,11000,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+3,Small Dbl shrd bath w/AC,2026-27,Undergraduate Housing,Semi-Suite - Double,Academic Year,6996,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+10,Small Double,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,3960,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,2/Room,FALSE,FALSE
+11,Small Single,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,7920,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,1/Room,FALSE,FALSE
+12,Standard Single,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,8650,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,1/Room,FALSE,FALSE
+16,Triple,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,2916,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,3/Room,FALSE,FALSE
+15,Triple w/bath,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,4640,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,3/Room,FALSE,TRUE
+47,Triple/Suite w/bath & AC,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,6360,Academic Year 2026-27,Cary Quadrangle,West Lafayette,FALSE,3/Room,TRUE,TRUE
+48,Small Double w/AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,4506,Academic Year 2026-27,Earhart Hall,West Lafayette,FALSE,2/Room,TRUE,FALSE
+18,Standard Dbl w/bath & AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,5920,Academic Year 2026-27,Earhart Hall,West Lafayette,FALSE,2/Room,TRUE,TRUE
+17,Standard Double w/AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,5920,Academic Year 2026-27,Earhart Hall,West Lafayette,FALSE,2/Room,TRUE,FALSE
+54,Triple w/AC,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,4540,Academic Year 2026-27,Earhart Hall,West Lafayette,FALSE,3/Room,TRUE,FALSE
+7,Single w/priv bath & AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,11500,Academic Year 2026-27,First Street Towers,West Lafayette,FALSE,1/Room,TRUE,TRUE
+112,Apt 2 Bdrm for 4-2bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,9240,Academic Year 2026-27,Frieda Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+76,Suite semi w/shrd bath AC,2026-27,Undergraduate Housing,Semi-Suite - Double,Academic Year,8000,Academic Year 2026-27,Frieda Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+75,Suite w/shrd bath AC,2026-27,Undergraduate Housing,Full Suite - Double,Academic Year,7750,Academic Year 2026-27,Frieda Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+109,Apt 2 Bdrm for 2-2bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,17826,Academic Year 2026-27,Fuse (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+139,Apt 4 Bdrm for 4-2bath AC,2026-27,Undergraduate Housing,4 BR Apt,Academic Year,17826,Academic Year 2026-27,Fuse (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+116,Apt 4 Bdrm for 4-4bath AC,2026-27,Undergraduate Housing,4 BR Apt,Academic Year,17230,Academic Year 2026-27,Fuse (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+204,Apt Studio w/AC,2026-27,Undergraduate Housing,Studio Apt,Academic Year,20648,Academic Year 2026-27,Fuse (UR Apts),West Lafayette,TRUE,1/Room,TRUE,TRUE
+110,Apt 2 Bdrm for 2-1bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,7977,Academic Year 2026-27,Grant 333 (UR Apts),West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+193,Quad Plus w/AC,2026-27,Undergraduate Housing,Traditional - Quad,Academic Year,4930,Academic Year 2026-27,Harrison Hall,West Lafayette,FALSE,6/Room,TRUE,FALSE
+97,Quad w/AC,2026-27,Undergraduate Housing,Traditional - Quad,Academic Year,4930,Academic Year 2026-27,Harrison Hall,West Lafayette,FALSE,4/Room,TRUE,FALSE
+17,Standard Double w/AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,5920,Academic Year 2026-27,Harrison Hall,West Lafayette,FALSE,2/Room,TRUE,FALSE
+54,Triple w/AC,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,4540,Academic Year 2026-27,Harrison Hall,West Lafayette,FALSE,3/Room,TRUE,FALSE
+20,Triple w/bath & AC,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,6092,Academic Year 2026-27,Harrison Hall,West Lafayette,FALSE,3/Room,TRUE,TRUE
+34,Apt 1 Bdrm for 3 w/AC,2026-27,Undergraduate Housing,1 BR Apt,Academic Year,5944,Academic Year 2026-27,Hawkins Hall,West Lafayette,FALSE,3/Bedroom,TRUE,TRUE
+25,Double w/AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,5920,Academic Year 2026-27,Hawkins Hall,West Lafayette,FALSE,2/Room,TRUE,FALSE
+2,Double w/shrd bath & AC,2026-27,Undergraduate Housing,Semi-Suite - Double,Academic Year,6754,Academic Year 2026-27,Hawkins Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+22,Single w/AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,6325,Academic Year 2026-27,Hawkins Hall,West Lafayette,FALSE,1/Room,TRUE,FALSE
+23,Single w/bath & AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,8650,Academic Year 2026-27,Hawkins Hall,West Lafayette,FALSE,1/Room,TRUE,TRUE
+7,Single w/priv bath & AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,8650,Academic Year 2026-27,Hawkins Hall,West Lafayette,FALSE,1/Room,TRUE,TRUE
+21,Single w/shower & AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,8650,Academic Year 2026-27,Hawkins Hall,West Lafayette,FALSE,1/Room,TRUE,TRUE
+26,Single w/shower bath & AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,8650,Academic Year 2026-27,Hawkins Hall,West Lafayette,FALSE,1/Room,TRUE,TRUE
+24,Small Single w/AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,6325,Academic Year 2026-27,Hawkins Hall,West Lafayette,FALSE,1/Room,TRUE,FALSE
+2,Double w/shrd bath & AC,2026-27,Undergraduate Housing,Semi-Suite - Double,Academic Year,6996,Academic Year 2026-27,Hillenbrand Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+6,Single w/shrd bath & AC,2026-27,Undergraduate Housing,Semi-Suite - Single,Academic Year,11000,Academic Year 2026-27,Hillenbrand Hall,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+141,Triple w/shrd bath & AC,2026-27,Undergraduate Housing,Semi-Suite - Triple,Academic Year,5364,Academic Year 2026-27,Hillenbrand Hall,West Lafayette,FALSE,3/Bedroom,TRUE,TRUE
+33,Apt 1 Bd for 2 w/Alc & AC,2026-27,Undergraduate Housing,1 BR Apt,Academic Year,8000,Academic Year 2026-27,Hilltop Apartments,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+32,Apt 1 Bdrm for 2 w/AC,2026-27,Undergraduate Housing,1 BR Apt,Academic Year,8000,Academic Year 2026-27,Hilltop Apartments,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+34,Apt 1 Bdrm for 3 w/AC,2026-27,Undergraduate Housing,1 BR Apt,Academic Year,5944,Academic Year 2026-27,Hilltop Apartments,West Lafayette,FALSE,3/Bedroom,TRUE,TRUE
+375,Apt Studio for 2 w/AC,2026-27,Undergraduate Housing,Studio Apt,Academic Year,6626,Academic Year 2026-27,Hilltop Apartments,West Lafayette,FALSE,2/Room,TRUE,TRUE
+112,Apt 2 Bdrm for 4-2bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,9240,Academic Year 2026-27,Honors College Residences,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+25,Double w/AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,7975,Academic Year 2026-27,Honors College Residences,West Lafayette,FALSE,2/Room,TRUE,FALSE
+97,Quad w/AC,2026-27,Undergraduate Housing,Traditional - Quad,Academic Year,5380,Academic Year 2026-27,Honors College Residences,West Lafayette,FALSE,4/Room,TRUE,FALSE
+22,Single w/AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,11500,Academic Year 2026-27,Honors College Residences,West Lafayette,FALSE,1/Room,TRUE,FALSE
+48,Small Double w/AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,6614,Academic Year 2026-27,Honors College Residences,West Lafayette,FALSE,2/room,TRUE,FALSE
+396,Small Triple w/AC,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,6116,Academic Year 2026-27,Honors College Residences,West Lafayette,FALSE,3/Room,TRUE,FALSE
+54,Triple w/AC,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,6360,Academic Year 2026-27,Honors College Residences,West Lafayette,FALSE,3/Room,TRUE,FALSE
+193,Quad Plus w/AC,2026-27,Undergraduate Housing,Traditional - Quad,Academic Year,4930,Academic Year 2026-27,McCutcheon Hall,West Lafayette,FALSE,6-8/Room,TRUE,FALSE
+17,Standard Double w/AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,5920,Academic Year 2026-27,McCutcheon Hall,West Lafayette,FALSE,2/Room,TRUE,FALSE
+54,Triple w/AC,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,4540,Academic Year 2026-27,McCutcheon Hall,West Lafayette,FALSE,3/Room,TRUE,FALSE
+20,Triple w/bath & AC,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,6092,Academic Year 2026-27,McCutcheon Hall,West Lafayette,FALSE,3/Room,TRUE,TRUE
+37,2 Room Suite for 2 w/bth,2026-27,Undergraduate Housing,Full Suite - Double,Academic Year,6148,Academic Year 2026-27,Meredith Hall,West Lafayette,FALSE,2,FALSE,TRUE
+1,Double,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,4506,Academic Year 2026-27,Meredith Hall,West Lafayette,FALSE,2/Room,FALSE,FALSE
+36,Double w/bath,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,4272,Academic Year 2026-27,Meredith Hall,West Lafayette,FALSE,2/Room,FALSE,TRUE
+12,Standard Single,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,6556,Academic Year 2026-27,Meredith Hall,West Lafayette,FALSE,1/Room,FALSE,FALSE
+25,Double w/AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,7975,Academic Year 2026-27,Meredith South,West Lafayette,FALSE,2/Room,TRUE,FALSE
+97,Quad w/AC,2026-27,Undergraduate Housing,Traditional - Quad,Academic Year,5291,Academic Year 2026-27,Meredith South,West Lafayette,FALSE,4/Room,TRUE,FALSE
+22,Single w/AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,11500,Academic Year 2026-27,Meredith South,West Lafayette,FALSE,1/Room,TRUE,FALSE
+7,Single w/priv bath & AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,11500,Academic Year 2026-27,Meredith South,West Lafayette,FALSE,1/Room,TRUE,TRUE
+54,Triple w/AC,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,6116,Academic Year 2026-27,Meredith South,West Lafayette,FALSE,3/Room,TRUE,FALSE
+196,Quad,2026-27,Undergraduate Housing,Traditional - Quad,Academic Year,4930,Academic Year 2026-27,Owen Hall,West Lafayette,FALSE,4/Room,FALSE,FALSE
+39,Single w/bath,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,8650,Academic Year 2026-27,Owen Hall,West Lafayette,FALSE,1/Room,FALSE,TRUE
+38,Standard Double,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,4506,Academic Year 2026-27,Owen Hall,West Lafayette,FALSE,2/Room,FALSE,FALSE
+16,Triple,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,3456,Academic Year 2026-27,Owen Hall,West Lafayette,FALSE,3/Room,FALSE,FALSE
+15,Triple w/bath,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,4640,Academic Year 2026-27,Owen Hall,West Lafayette,FALSE,3/Room,FALSE,TRUE
+111,Apt 1 Bdrm for 2-1bath AC,2026-27,Undergraduate Housing,1 BR Apt,Academic Year,13248,Academic Year 2026-27,Provenance (UR Apts),West Lafayette,TRUE,2/Bedroom,TRUE,TRUE
+112,Apt 2 Bdrm for 4-2bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,12420,Academic Year 2026-27,Provenance (UR Apts),West Lafayette,TRUE,2/Bedroom,TRUE,TRUE
+394,Apt 3BD for 4-Dbl/Shd-3Ba,2026-27,Undergraduate Housing,3 BR Apt,Academic Year,10628,Academic Year 2026-27,Provenance (UR Apts),West Lafayette,TRUE,2/Bedroom,TRUE,TRUE
+395,Apt 3BD for 4-Sng/Shd-3Ba,2026-27,Undergraduate Housing,3 BR Apt,Academic Year,16416,Academic Year 2026-27,Provenance (UR Apts),West Lafayette,TRUE,1/Bedroom,TRUE,TRUE
+108,Apt 1 Bdrm for 1 small AC,2026-27,Undergraduate Housing,1 BR Apt,Academic Year,10500,Academic Year 2026-27,Russell 414 (UR Apts),West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+110,Apt 2 Bdrm for 2-1bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,8250,Academic Year 2026-27,Russell 414 (UR Apts),West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+109,Apt 2 Bdrm for 2-2bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,8250,Academic Year 2026-27,Russell 414 (UR Apts),West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+112,Apt 2 Bdrm for 4-2bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,9240,Academic Year 2026-27,Shreve Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+48,Small Double w/AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,4506,Academic Year 2026-27,Shreve Hall,West Lafayette,FALSE,2/Room,TRUE,FALSE
+18,Standard Dbl w/bath & AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,5920,Academic Year 2026-27,Shreve Hall,West Lafayette,FALSE,2/Room,TRUE,TRUE
+17,Standard Double w/AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,5920,Academic Year 2026-27,Shreve Hall,West Lafayette,FALSE,2/Room,TRUE,FALSE
+54,Triple w/AC,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,4540,Academic Year 2026-27,Shreve Hall,West Lafayette,FALSE,3/Room,TRUE,FALSE
+25,Double w/AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,7975,Academic Year 2026-27,South Hall,West Lafayette,FALSE,2/Room,TRUE,FALSE
+97,Quad w/AC,2026-27,Undergraduate Housing,Traditional - Quad,Academic Year,5291,Academic Year 2026-27,South Hall,West Lafayette,FALSE,4/Room,TRUE,FALSE
+22,Single w/AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,8650,Academic Year 2026-27,South Hall,West Lafayette,FALSE,1/Room,TRUE,FALSE
+7,Single w/priv bath & AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,11500,Academic Year 2026-27,South Hall,West Lafayette,FALSE,1/Room,TRUE,TRUE
+54,Triple w/AC,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,6360,Academic Year 2026-27,South Hall,West Lafayette,FALSE,3/Room,TRUE,FALSE
+110,Apt 2 Bdrm for 2-1bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,7977,Academic Year 2026-27,Steely 410 (UR Apts),West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+97,Quad w/AC,2026-27,Undergraduate Housing,Traditional - Quad,Academic Year,4930,Academic Year 2026-27,Tarkington Hall,West Lafayette,FALSE,4/Room,TRUE,FALSE
+39,Single w/bath,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,8650,Academic Year 2026-27,Tarkington Hall,West Lafayette,FALSE,1/Room,FALSE,TRUE
+38,Standard Double,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,4506,Academic Year 2026-27,Tarkington Hall,West Lafayette,FALSE,2/Room,FALSE,FALSE
+16,Triple,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,3456,Academic Year 2026-27,Tarkington Hall,West Lafayette,FALSE,3/Room,FALSE,FALSE
+15,Triple w/bath,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,4640,Academic Year 2026-27,Tarkington Hall,West Lafayette,FALSE,3/Room,FALSE,TRUE
+104,Apt 1 Bdrm for 1 w/AC,2026-27,Undergraduate Housing,1 BR Apt,Academic Year,13354,Academic Year 2026-27,Waldron 125 (UR Apts),West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+105,Apt 2 Bdrm for 2 w/AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,10216,Academic Year 2026-27,Waldron 125 (UR Apts),West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+106,Apt 3 Bdrm for 3 w/AC,2026-27,Undergraduate Housing,3 BR Apt,Academic Year,10118,Academic Year 2026-27,Waldron 125 (UR Apts),West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+108,Apt 1 Bdrm for 1 small AC,2026-27,Undergraduate Housing,1 BR Apt,Academic Year,12940,Academic Year 2026-27,Waldron 19 (UR Apts),West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+109,Apt 2 Bdrm for 2-2bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,10216,Academic Year 2026-27,Waldron 19 (UR Apts),West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+104,Apt 1 Bdrm for 1 w/AC,2026-27,Undergraduate Housing,1 BR Apt,Academic Year,10500,Academic Year 2026-27,Waldron Square (UR Apts),West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+157,Apt 4 Bd for 4-1.5 Bth AC,2026-27,Undergraduate Housing,4 BR Apt,Academic Year,10000,Academic Year 2026-27,Waldron Square (UR Apts),West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+196,Quad,2026-27,Undergraduate Housing,Traditional - Quad,Academic Year,4930,Academic Year 2026-27,Wiley Hall,West Lafayette,FALSE,4/Room,FALSE,FALSE
+22,Single w/AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,8650,Academic Year 2026-27,Wiley Hall,West Lafayette,FALSE,1/Room,TRUE,FALSE
+39,Single w/bath,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,8650,Academic Year 2026-27,Wiley Hall,West Lafayette,FALSE,1/Room,FALSE,TRUE
+38,Standard Double,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,4506,Academic Year 2026-27,Wiley Hall,West Lafayette,FALSE,2/Room,FALSE,FALSE
+16,Triple,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,3456,Academic Year 2026-27,Wiley Hall,West Lafayette,FALSE,3/Room,FALSE,FALSE
+15,Triple w/bath,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,4640,Academic Year 2026-27,Wiley Hall,West Lafayette,FALSE,3/Room,FALSE,TRUE
+143,2 Rm Ste for 4 Pri Bth AC,2026-27,Undergraduate Housing,Full Suite - Double,Academic Year,6148,Academic Year 2026-27,Windsor Halls,West Lafayette,FALSE,4,TRUE,TRUE
+25,Double w/AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,5920,Academic Year 2026-27,Windsor Halls,West Lafayette,FALSE,2/Room,TRUE,FALSE
+4,Double w/priv bath & AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,5920,Academic Year 2026-27,Windsor Halls,West Lafayette,FALSE,2/Room,TRUE,TRUE
+2,Double w/shrd bath & AC,2026-27,Undergraduate Housing,Semi-Suite - Double,Academic Year,6996,Academic Year 2026-27,Windsor Halls,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+49,Large Double w/AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,7975,Academic Year 2026-27,Windsor Halls,West Lafayette,FALSE,2/Room,TRUE,FALSE
+22,Single w/AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,8650,Academic Year 2026-27,Windsor Halls,West Lafayette,FALSE,1/Room,TRUE,FALSE
+7,Single w/priv bath & AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,11500,Academic Year 2026-27,Windsor Halls,West Lafayette,FALSE,1/Room,TRUE,TRUE
+142,Single w/priv half-bth&AC,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,8650,Academic Year 2026-27,Windsor Halls,West Lafayette,FALSE,1/Room,TRUE,TRUE
+6,Single w/shrd bath & AC,2026-27,Undergraduate Housing,Semi-Suite - Single,Academic Year,11000,Academic Year 2026-27,Windsor Halls,West Lafayette,FALSE,1/Bedroom,TRUE,TRUE
+48,Small Double w/AC,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,4675,Academic Year 2026-27,Windsor Halls,West Lafayette,FALSE,2/Room,TRUE,FALSE
+54,Triple w/AC,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,4640,Academic Year 2026-27,Windsor Halls,West Lafayette,FALSE,3/Room,TRUE,FALSE
+140,Triple w/priv bath & AC,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,6360,Academic Year 2026-27,Windsor Halls,West Lafayette,FALSE,3/Room,TRUE,TRUE
+141,Triple w/shrd bath & AC,2026-27,Undergraduate Housing,Traditional - Triple,Academic Year,6360,Academic Year 2026-27,Windsor Halls,West Lafayette,FALSE,3/Room,TRUE,TRUE
+112,Apt 2 Bdrm for 4-2bath AC,2026-27,Undergraduate Housing,2 BR Apt,Academic Year,9240,Academic Year 2026-27,Winifred Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+205,Suite for 6 w/bath AC,2026-27,Undergraduate Housing,Full Suite - Triple,Academic Year,5942,Academic Year 2026-27,Winifred Parker Hall,West Lafayette,FALSE,3/Bedroom,TRUE,TRUE
+384,Suite semi for 6/bath AC,2026-27,Undergraduate Housing,Semi-Suite - Triple,Academic Year,6134,Academic Year 2026-27,Winifred Parker Hall,West Lafayette,FALSE,3/Bedroom,TRUE,TRUE
+76,Suite semi w/shrd bath AC,2026-27,Undergraduate Housing,Semi-Suite - Double,Academic Year,8000,Academic Year 2026-27,Winifred Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+75,Suite w/shrd bath AC,2026-27,Undergraduate Housing,Full Suite - Double,Academic Year,7750,Academic Year 2026-27,Winifred Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE
+1,Double,2025-26,Undergraduate Housing,Traditional - Double,Academic Year,8436,Academic Year 2025-26,North Hall,Indianapolis,FALSE,2/Room,TRUE,FALSE
+376,"LUX 4 Bdrm for 4, 4bth",2025-26,Undergraduate Housing,4 BR Apt,Academic Year,12900,Academic Year 2025-26,LUX on Capitol,Indianapolis,FALSE,1/Bedroom,TRUE,TRUE
+377,"LUX 4 Bdrm for 4, 4bth XL",2025-26,Undergraduate Housing,4 BR Apt,Academic Year,13900,Academic Year 2025-26,LUX on Capitol,Indianapolis,FALSE,1/Bedroom,TRUE,TRUE
+378,"LUX 3 Bdrm for 3, 3bth",2025-26,Undergraduate Housing,3 BR Apt,Academic Year,15900,Academic Year 2025-26,LUX on Capitol,Indianapolis,FALSE,1/Bedroom,TRUE,TRUE
+379,"LUX 1 Bdrm for 1, 1bth",2025-26,Undergraduate Housing,1 BR Apt,Academic Year,22500,Academic Year 2025-26,LUX on Capitol,Indianapolis,FALSE,1/Bedroom,TRUE,TRUE
+380,LUX Apt Studio,2025-26,Undergraduate Housing,Studio Apt,Academic Year,19900,Academic Year 2025-26,LUX on Capitol,Indianapolis,FALSE,1/Bedroom,TRUE,TRUE
+381,Single,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,8653,Academic Year 2025-26,North Hall,Indianapolis,FALSE,1/Room,TRUE,FALSE
+382,"LUX 2 Bdrm for 2, 2bth",2025-26,Undergraduate Housing,2 BR Apt,Academic Year,17900,Academic Year 2025-26,LUX on Capitol,Indianapolis,FALSE,1/Bedroom,TRUE,TRUE
+39,Single w/bath,2025-26,Undergraduate Housing,Traditional - Single,Academic Year,8991,Academic Year 2025-26,North Hall,Indianapolis,FALSE,1/Room,TRUE,TRUE
+1,Double,2026-27,Undergraduate Housing,Traditional - Double,Academic Year,8688,Academic Year 2026-27,North Hall,Indianapolis,FALSE,2/Room,TRUE,FALSE
+376,"LUX 4 Bdrm for 4, 4bth",2026-27,Undergraduate Housing,4 BR Apt,Academic Year,13480,Academic Year 2026-27,LUX on Capitol,Indianapolis,FALSE,1/Bedroom,TRUE,TRUE
+378,"LUX 3 Bdrm for 3, 3bth",2026-27,Undergraduate Housing,3 BR Apt,Academic Year,16854,Academic Year 2026-27,LUX on Capitol,Indianapolis,FALSE,1/Bedroom,TRUE,TRUE
+379,"LUX 1 Bdrm for 1, 1bth",2026-27,Undergraduate Housing,1 BR Apt,Academic Year,23850,Academic Year 2026-27,LUX on Capitol,Indianapolis,FALSE,1/Bedroom,TRUE,TRUE
+380,LUX Apt Studio,2026-27,Undergraduate Housing,Studio Apt,Academic Year,21094,Academic Year 2026-27,LUX on Capitol,Indianapolis,FALSE,1/Bedroom,TRUE,TRUE
+381,Single,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,8912,Academic Year 2026-27,North Hall,Indianapolis,FALSE,1/Room,TRUE,FALSE
+382,"LUX 2 Bdrm for 2, 2bth",2026-27,Undergraduate Housing,2 BR Apt,Academic Year,18974,Academic Year 2026-27,LUX on Capitol,Indianapolis,FALSE,1/Bedroom,TRUE,TRUE
+39,Single w/bath,2026-27,Undergraduate Housing,Traditional - Single,Academic Year,9260,Academic Year 2026-27,North Hall,Indianapolis,FALSE,1/Room,TRUE,TRUE
