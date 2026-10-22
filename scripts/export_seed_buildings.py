@@ -1,8 +1,8 @@
-# Run whenever the backend's seed buildings change.
-# Usage:
-# curl -sSL -o /tmp/seed.js https://raw.githubusercontent.com/Purdue-ACM-SIGAPP/boilercrib-backend/main/seed/seed.js
-# uv run python scripts/export_seed_buildings.py /tmp/seed.js
-
+"""Run whenever the backend's seed buildings change.
+Usage:
+curl -sSL -o /tmp/seed.js https://raw.githubusercontent.com/Purdue-ACM-SIGAPP/boilercrib-backend/main/seed/seed.js
+uv run python scripts/export_seed_buildings.py /tmp/seed.js
+"""
 
 import json
 import re
