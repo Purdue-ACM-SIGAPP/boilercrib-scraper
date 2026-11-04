@@ -8,28 +8,22 @@ SOURCE = "https://housing.purdue.edu/data/room-rates.csv"
 
 def GetCurrentAcademicYear():
     today = dt.datetime.today()
-    if (today.month > 6):
+    if (today.month >= 8):
         return today.year
     else:
         return today.year - 1
 
-def GetCapacity(category : str, capacity : str, roomType : str):
-    if category == "Studio Apt":
-        totalCapacity = capacity[0]
-    elif category.find("Apt") != -1:
-        totalCapacity = str(int(category[0]) * int(capacity[0]))
-    elif capacity.isdigit():
+def GetCapacity(roomType : str, capacity : str):
+    if capacity.isdigit():
         totalCapacity = capacity
-    elif capacity.find("-") == -1:
-        if capacity.find("/Room") != -1:
-            totalCapacity = capacity[0]
-        elif roomType.find("for") == -1:
-            totalCapacity = capacity[0]
-        else:
-            totalCapacity = roomType[roomType.find("for") + 4]
-    else:
-        #Dealing with ranges
+    elif capacity.find("-") > -1:
         totalCapacity = capacity[capacity.find("-") + 1]
+    elif capacity.find("/Room") > -1:
+        totalCapacity = capacity[0]
+    elif roomType.find("for") > -1:
+        totalCapacity = roomType[roomType.find("for") + 4]
+    else:
+        totalCapacity = capacity[0]
     return totalCapacity
 
 def GetHousingRates(startingYear : int = GetCurrentAcademicYear()):
@@ -43,7 +37,7 @@ def GetHousingRates(startingYear : int = GetCurrentAcademicYear()):
             continue
         if (data["Location"] != "West Lafayette"):
             continue
-        if (data["Term"][0:3] != str(startingYear)):
+        if (data["Term"][0:4] != str(startingYear)):
             continue
         
         building_id     : str = ""
@@ -59,6 +53,7 @@ def GetHousingRates(startingYear : int = GetCurrentAcademicYear()):
         airConditioning : bool = True if (data["Air Conditioning"] == "True") else False
         bath            : bool = True if (data["Bath"] == "True") else False
         normal_building : str = matching.normalize(data["Building"])
+        
         if normal_building in aliases.keys():
             buildings = aliases[normal_building]
         else:
@@ -69,7 +64,7 @@ def GetHousingRates(startingYear : int = GetCurrentAcademicYear()):
                     building_id = i.id
             if building_id == "":
                 continue
-            totalCapacity = GetCapacity(category, capacity, roomType)
+            totalCapacity = GetCapacity(roomType, capacity)
             a = Room(buildingId=building_id, capacity=int(totalCapacity), housingRate=amount)
             rooms.append(a)
     return rooms
