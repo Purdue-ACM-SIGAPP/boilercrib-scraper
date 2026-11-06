@@ -29,7 +29,7 @@ def get_capacity(roomType : str, capacity : str):
         totalCapacity = capacity[0]
     return totalCapacity
 
-def get_housing_rates(startingYear : int = get_current_academic_year()):
+def get_housing_rates(startingYear : int = get_current_academic_year()) -> list[Room]:
     file : list[str] = get(SOURCE).text.split("\n")
     fields_reference : list[str] = file[0].strip("\r").split(",")
     rooms = []
