@@ -1,0 +1,128 @@
+[
+  {
+    "id": "673400991a2d8e0fbcc020f5",
+    "name": "Earhart Hall",
+    "acronym": "EAR",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "673401181a2d8e0fbcc020f8",
+    "name": "Wiley Dining Court",
+    "acronym": "WDCT",
+    "buildingType": "DinningCourt"
+  },
+  {
+    "id": "67abef4b4d435cf0e658adad",
+    "name": "Shreve Hall",
+    "acronym": "SHRV",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67a2bf3f41447d8654fec45e",
+    "name": "Hillenbrand Hall",
+    "acronym": "HILL",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67ae9c55320274ba7a3cffb6",
+    "name": "Hawkins Hall",
+    "acronym": "HAWK",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67ae9f0c320274ba7a3cffb8",
+    "name": "First Street Towers",
+    "acronym": "FST",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "673401591a2d8e0fbcc020f9",
+    "name": "Windsor Halls",
+    "acronym": "WIND",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67b524dd7e2b227430be039c",
+    "name": "Meredith Hall",
+    "acronym": "MRDH",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67b526f07e2b227430be039d",
+    "name": "Meredith Hall South",
+    "acronym": "MRDS",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67b52af17e2b227430be039e",
+    "name": "Winifred Parker Hall",
+    "acronym": "PKRW",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67b52bb47e2b227430be039f",
+    "name": "Frieda Parker Hall",
+    "acronym": "PKRF",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67a2cd6841447d8654fec460",
+    "name": "Ford Dining Court",
+    "acronym": "FORD",
+    "buildingType": "DinningCourt"
+  },
+  {
+    "id": "67b52c0e7e2b227430be03a0",
+    "name": "University Residences",
+    "acronym": null,
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67ae9e4cb54f3608bced571c",
+    "name": "Honors College and Residences North",
+    "acronym": "HCRN",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67b531027e2b227430be03a1",
+    "name": "Honors College and Residences South",
+    "acronym": "HCRS",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67b531fe7e2b227430be03a2",
+    "name": "Cary Quadrangle",
+    "acronym": "CARY",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67b534bccb4412c68729fd34",
+    "name": "Tarkington Hall",
+    "acronym": "TARK",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67b53552cb4412c68729fd35",
+    "name": "Wiley Hall",
+    "acronym": "WILY",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67b7d208fc18b9daaaee6fbb",
+    "name": "Owen Hall",
+    "acronym": "OWEN",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67b7d278fc18b9daaaee6fbc",
+    "name": "Harrison Hall",
+    "acronym": "HARR",
+    "buildingType": "Housing"
+  },
+  {
+    "id": "67b7d445fc18b9daaaee6fbd",
+    "name": "McCutcheon Hall",
+    "acronym": "MCUT",
+    "buildingType": "Housing"
+  }
+]

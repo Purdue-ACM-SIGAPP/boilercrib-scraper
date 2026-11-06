@@ -38,4 +38,4 @@ or
 uv run pytest
 ```
 
-Should report "no tests ran".
+Should report "All tests passed".
