@@ -7,7 +7,8 @@ import matching
 SOURCE = "https://housing.purdue.edu/data/room-rates.csv"
 
 def get_current_academic_year():
-    today = dt.datetime.today()
+    est_zone = dt.timezone(dt.timedelta(hours=-5))
+    today = dt.datetime.now(tz=est_zone)
     if (today.month >= 8):
         return today.year
     else:
