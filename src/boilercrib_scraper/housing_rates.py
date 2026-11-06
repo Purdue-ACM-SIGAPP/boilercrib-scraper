@@ -1,8 +1,10 @@
-from requests import get
-from models import *
 import csv
 import datetime as dt
-import matching
+
+from requests import get
+
+from boilercrib_scraper import matching
+from boilercrib_scraper.models import Room
 
 SOURCE = "https://housing.purdue.edu/data/room-rates.csv"
 
