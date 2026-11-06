@@ -6,14 +6,14 @@ import matching
 
 SOURCE = "https://housing.purdue.edu/data/room-rates.csv"
 
-def GetCurrentAcademicYear():
+def get_current_academic_year():
     today = dt.datetime.today()
     if (today.month >= 8):
         return today.year
     else:
         return today.year - 1
 
-def GetCapacity(roomType : str, capacity : str):
+def get_capacity(roomType : str, capacity : str):
     if capacity.isdigit():
         totalCapacity = capacity
     elif capacity.find("-") > -1:
@@ -26,7 +26,7 @@ def GetCapacity(roomType : str, capacity : str):
         totalCapacity = capacity[0]
     return totalCapacity
 
-def GetHousingRates(startingYear : int = GetCurrentAcademicYear()):
+def get_housing_rates(startingYear : int = get_current_academic_year()):
     file : list[str] = get(SOURCE).text.split("\n")
     fields_reference : list[str] = file[0].strip("\r").split(",")
     rooms = []
@@ -64,7 +64,7 @@ def GetHousingRates(startingYear : int = GetCurrentAcademicYear()):
                     building_id = i.id
             if building_id == "":
                 continue
-            totalCapacity = GetCapacity(roomType, capacity)
+            totalCapacity = get_capacity(roomType, capacity)
             a = Room(buildingId=building_id, capacity=int(totalCapacity), housingRate=amount)
             rooms.append(a)
     return rooms
