@@ -1,8 +1,6 @@
 import csv
 import datetime as dt
 
-from requests import get
-
 from boilercrib_scraper import matching
 from boilercrib_scraper.models import Room
 
@@ -29,13 +27,12 @@ def get_capacity(roomType : str, capacity : str):
         totalCapacity = capacity[0]
     return totalCapacity
 
-def get_housing_rates(startingYear : int = get_current_academic_year()) -> list[Room]:
-    file : list[str] = get(SOURCE).text.split("\n")
-    fields_reference : list[str] = file[0].strip("\r").split(",")
+def get_housing_rates(csvFile: str, startingYear: int = get_current_academic_year()) -> list[Room]:
+    fields_reference : list[str] = csvFile[0].strip("\r").split(",")
     rooms = []
     building_seed = matching.load_seed()
     aliases = matching.load_aliases()
-    for data in csv.DictReader(file):
+    for data in csv.DictReader(csvFile):
         if (len(data) <= 1):
             continue
         if (data["Location"] != "West Lafayette"):
