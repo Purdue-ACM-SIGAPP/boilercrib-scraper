@@ -42,20 +42,16 @@ class Events(BaseModel):
 
 
 class Room(BaseModel):
-    capacity: int | None = None  # Does not currently distinguish
-    # between capacity per bedroom or
-    # capacity per room
+    capacityRangeStart: int | None = None
+    capacityRangeEnd: int | None = None
+    capacityPer: str | None = None
+    category: str | None = None
     features: list[str] | None = None
-    cost: float | None = None
     housingRate: float | None = None
+    period: str | None = None
     isSharedBathroom: bool | None = None
+    isAirConditioned: bool | None = None
     buildingId: str | None = None
-
-    # Fields that don't exist in the backend yet:
-    # category: str | None
-    # period: str | None  # Couldn't find any instance where period is not
-    #                     # "Academic Year"
-    # airConditioning: bool | None
 
     model_config = ConfigDict(extra="forbid")
 
