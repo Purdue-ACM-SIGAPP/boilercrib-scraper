@@ -6,24 +6,6 @@ from boilercrib_scraper.housing_rates import get_housing_rates
 from boilercrib_scraper.matching import SEED_PATH, load_seed
 from boilercrib_scraper.models import Room
 
-
-"""
-TO TEST:
-
-GetCurrentAcademicYear()
-
-GetCapacity()
--cap is digit
--cap has "-"
--cap has "/Room"
--roomType has "for"
--other
-
-honors college doubling
-
-GetHousingRates() in general
-"""
-
 ROOM_RATES_27_28_CSV_PATH = (
     Path(__file__).parent / "fixtures" / "housing_rates" / "room-rates2728.csv"
 )
