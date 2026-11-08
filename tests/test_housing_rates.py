@@ -2,7 +2,7 @@ from pathlib import Path
 
 import pytest
 
-from boilercrib_scraper.housing_rates import get_housing_rates
+from boilercrib_scraper.housing_rates import get_rooms_from_housing_rates_csv
 from boilercrib_scraper.matching import SEED_PATH, load_seed
 from boilercrib_scraper.models import Room
 
@@ -19,7 +19,7 @@ MCCUTCHEON_ID = next(x for x in SEED_BUILDINGS if x.acronym == "MCUT").id
 
 @pytest.fixture(scope="module")
 def housing_rates_27_28() -> list[Room]:
-    return get_housing_rates(ROOM_RATES_27_28_CSV, 2027)
+    return get_rooms_from_housing_rates_csv(ROOM_RATES_27_28_CSV, 2027)
 
 
 @pytest.mark.parametrize(
@@ -71,7 +71,7 @@ def test_includes_correct_rooms(housing_rates_27_28: list[Room], room: Room):
 
 def test_capacity_range():
     # In the 2027-2028 CSV, the only entries that have a range are those for 2026-2027
-    housing_rates_26_27 = get_housing_rates(ROOM_RATES_27_28_CSV, 2026)
+    housing_rates_26_27 = get_rooms_from_housing_rates_csv(ROOM_RATES_27_28_CSV, 2026)
     room = Room(
         capacityRangeStart=6,
         capacityRangeEnd=8,
