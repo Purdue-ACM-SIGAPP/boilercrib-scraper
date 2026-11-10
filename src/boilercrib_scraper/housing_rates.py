@@ -164,7 +164,6 @@ def _get_starting_year_from_term(term: str) -> int | None:
         return None
 
 
-# TODO test
 def _parse_capacity(capacity_str: str) -> tuple[int, int, str | None] | None:
     """Parse capacity from values of the capacity field of the housing rates CSV.
 
@@ -200,17 +199,3 @@ def _parse_capacity(capacity_str: str) -> tuple[int, int, str | None] | None:
         capacity_range_end = capacity
 
     return capacity_range_start, capacity_range_end, capacity_per
-
-
-# def get_capacity(roomType: str, capacity: str):
-#     if capacity.isdigit():
-#         totalCapacity = capacity
-#     elif capacity.find("-") > -1:
-#         totalCapacity = capacity[capacity.find("-") + 1]
-#     elif capacity.find("/Room") > -1:
-#         totalCapacity = capacity[0]
-#     elif roomType.find("for") > -1:
-#         totalCapacity = roomType[roomType.find("for") + 4]
-#     else:
-#         totalCapacity = capacity[0]
-#     return totalCapacity

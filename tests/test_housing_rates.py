@@ -4,6 +4,7 @@ import pytest
 
 from boilercrib_scraper.housing_rates import (
     _get_starting_year_from_term,
+    _parse_capacity,
     get_rooms_from_housing_rates_csv,
 )
 from boilercrib_scraper.matching import SEED_PATH, load_seed
@@ -93,3 +94,18 @@ def test_capacity_range():
 @pytest.mark.parametrize("term,expected", [("2026-27", 2026), ("2027-28", 2027)])
 def test_get_starting_year_from_term_field(term: str, expected: int):
     assert _get_starting_year_from_term(term) == expected
+
+
+@pytest.mark.parametrize(
+    "capacity_str,expected",
+    [
+        ("2", (2, 2, None)),
+        ("4", (4, 4, None)),
+        ("1/Bedroom", (1, 1, "Bedroom")),
+        ("3/Room", (3, 3, "Room")),
+        ("5-8/Room", (5, 8, "Room")),
+        ("6-8/Room", (6, 8, "Room")),
+    ],
+)
+def test_parse_capacity_field(capacity_str: str, expected: tuple[int, int, str | None]):
+    assert _parse_capacity(capacity_str) == expected
