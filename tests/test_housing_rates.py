@@ -2,7 +2,10 @@ from pathlib import Path
 
 import pytest
 
-from boilercrib_scraper.housing_rates import get_rooms_from_housing_rates_csv
+from boilercrib_scraper.housing_rates import (
+    _get_starting_year_from_term,
+    get_rooms_from_housing_rates_csv,
+)
 from boilercrib_scraper.matching import SEED_PATH, load_seed
 from boilercrib_scraper.models import Room
 
@@ -19,7 +22,7 @@ MCCUTCHEON_ID = next(x for x in SEED_BUILDINGS if x.acronym == "MCUT").id
 
 @pytest.fixture(scope="module")
 def housing_rates_27_28() -> list[Room]:
-    return get_rooms_from_housing_rates_csv(ROOM_RATES_27_28_CSV, 2027)
+    return list(get_rooms_from_housing_rates_csv(ROOM_RATES_27_28_CSV, 2027))
 
 
 @pytest.mark.parametrize(
@@ -85,3 +88,8 @@ def test_capacity_range():
         buildingId=MCCUTCHEON_ID,
     )
     assert room in housing_rates_26_27
+
+
+@pytest.mark.parametrize("term,expected", [("2026-27", 2026), ("2027-28", 2027)])
+def test_get_starting_year_from_term_field(term: str, expected: int):
+    assert _get_starting_year_from_term(term) == expected

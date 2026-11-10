@@ -144,7 +144,6 @@ def get_rooms_from_housing_rates_csv(
     # return rooms
 
 
-# TODO test
 def _get_starting_year_from_term(term: str) -> int | None:
     """Get the starting year of the academic year from the term field of the housing rates CSV.
 
