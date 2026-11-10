@@ -3,6 +3,7 @@ import logging
 from collections.abc import Generator
 from csv import DictReader
 
+from boilercrib_scraper.matching import Matcher
 from boilercrib_scraper.models import Room
 
 logger = logging.getLogger(__name__)
@@ -46,6 +47,7 @@ def get_rooms_from_housing_rates_csv(
     csv_file: str,
     starting_year: int = get_current_academic_year(),
     location: str = "West Lafayette",
+    matcher: Matcher | None = None,
 ) -> Generator[Room]:
     """Get `Room`s from a housing rates CSV file.
 
@@ -60,6 +62,9 @@ def get_rooms_from_housing_rates_csv(
     Raises:
         KeyError: If the CSV columns are different than expected.
     """
+    if matcher is None:
+        matcher = Matcher()
+
     dict_reader = DictReader(csv_file.splitlines())
     for i, row_dict in enumerate(dict_reader):
         row = HousingRatesRow(row_dict)
@@ -68,27 +73,55 @@ def get_rooms_from_housing_rates_csv(
         # TODO test
         row_starting_year = _get_starting_year_from_term(row.term)
         if row_starting_year is None:
-            logger.error(f"Row {i}: Failed to get starting year from term '{row.term}'")
+            logger.error(
+                f"Row {i}: Failed to get starting year from term '{row.term}', skipping."
+            )
             continue  # Maybe this should raise an exception instead of continuing
         if row_starting_year != starting_year:
             logger.debug(
-                f"Skipping row {i} because its starting year of {row_starting_year} != {starting_year}"
+                f"Row {i}: starting year {row_starting_year} != {starting_year}, skipping."
             )
             continue
 
         # Filter by location
         if row.location != location:
-            logger.debug(
-                f"Skipping row {i} because its location of {row.location} != {location}"
+            logger.debug(f"Row {i}: location {row.location} != {location}, skipping.")
+            continue
+
+        # Get building id
+        matches = matcher.match(row.building)
+        if len(matches) > 2:
+            logger.warning(
+                f"Row {i}: Multiple matches for '{row.building}', going with first: {matches}"
+            )
+        elif len(matches) == 0:
+            logger.warning(
+                f"Row {i}: Did not find a match for '{row.building}', skipping."
             )
             continue
+        building_id = matches[0].id
 
         # Parse capacity
         parse_capacity_result = _parse_capacity(row.capacity)
         if parse_capacity_result is None:
-            logger.error(f"Row {i}: Failed to parse capacity '{row.capacity}'")
+            logger.error(
+                f"Row {i}: Failed to parse capacity '{row.capacity}', skipping."
+            )
             continue  # Maybe this should raise an exception instead of continuing
         capacity_range_start, capacity_range_end, capacity_per = parse_capacity_result
+
+        category = row.category
+
+        try:
+            housing_rate = float(row.amount)
+        except ValueError as e:
+            logger.error(f"Row {i}: Failed to parse housing rate: {e}. skipping.")
+            continue  # Maybe this should raise an exception instead of continuing
+
+        period = row.period
+
+        assert row.air_conditioning in ("TRUE", "FALSE")
+        is_air_conditioned = row.air_conditioning == "TRUE"
 
         yield Room(
             capacityRangeStart=capacity_range_start,
@@ -102,46 +135,6 @@ def get_rooms_from_housing_rates_csv(
             isAirConditioned=is_air_conditioned,
             buildingId=building_id,
         )
-    # fields_reference : list[str] = csvFile[0].strip("\r").split(",")
-    # rooms = []
-    # building_seed = matching.load_seed()
-    # aliases = matching.load_aliases()
-    # for data in csv.DictReader(csvFile):
-    #     if (len(data) <= 1):
-    #         continue
-    #     if (data["Location"] != "West Lafayette"):
-    #         continue
-    #     if (data["Term"][0:4] != str(startingYear)):
-    #         continue
-
-    #     building_id     : str = ""
-    #     id              : str = data["Room Type ID"]
-    #     roomType        : str = data["Room Type"]
-    #     term            : str = data["Term"]
-    #     category        : str = data["Category"]
-    #     amount          : int = int(data["Amount"])
-    #     buildings       : list[str] = []
-    #     apartment       : bool = True if (data["UR Boiler Apartment"] == "TRUE") else False
-    #     totalCapacity   : str = ""
-    #     capacity        : str = data["Capacity"]
-    #     airConditioning : bool = True if (data["Air Conditioning"] == "True") else False
-    #     bath            : bool = True if (data["Bath"] == "True") else False
-    #     normal_building : str = matching.normalize(data["Building"])
-
-    #     if normal_building in aliases.keys():
-    #         buildings = aliases[normal_building]
-    #     else:
-    #         buildings = [data["Building"]]
-    #     for building in buildings:
-    #         for i in building_seed:
-    #             if i.name == building:
-    #                 building_id = i.id
-    #         if building_id == "":
-    #             continue
-    #         totalCapacity = get_capacity(roomType, capacity)
-    #         a = Room(buildingId=building_id, capacity=int(totalCapacity), housingRate=amount)
-    #         rooms.append(a)
-    # return rooms
 
 
 def _get_starting_year_from_term(term: str) -> int | None:
