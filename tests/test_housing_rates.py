@@ -3,11 +3,13 @@ from pathlib import Path
 import pytest
 
 from boilercrib_scraper.housing_rates import (
+    HousingRatesRow,
+    _get_room_from_row,
     _get_starting_year_from_term,
     _parse_capacity,
     get_rooms_from_housing_rates_csv,
 )
-from boilercrib_scraper.matching import SEED_PATH, load_seed
+from boilercrib_scraper.matching import Matcher
 from boilercrib_scraper.models import Room
 
 ROOM_RATES_27_28_CSV_PATH = (
@@ -15,80 +17,112 @@ ROOM_RATES_27_28_CSV_PATH = (
 )
 ROOM_RATES_27_28_CSV = ROOM_RATES_27_28_CSV_PATH.read_text()
 
-SEED_BUILDINGS = load_seed(SEED_PATH)
-WINDSOR_ID = next(x for x in SEED_BUILDINGS if x.acronym == "WIND").id
-WINIFRED_PARKER_ID = next(x for x in SEED_BUILDINGS if x.acronym == "PKRW").id
-MCCUTCHEON_ID = next(x for x in SEED_BUILDINGS if x.acronym == "MCUT").id
-
 
 @pytest.fixture(scope="module")
 def housing_rates_27_28() -> list[Room]:
     return list(get_rooms_from_housing_rates_csv(ROOM_RATES_27_28_CSV, 2027))
 
 
-@pytest.mark.parametrize(
-    "room",
-    [
-        # First room in 2027-28
-        Room(
-            capacityRangeStart=1,
-            capacityRangeEnd=1,
-            capacityPer="Bedroom",
-            category="1 BR Apt",
-            features=None,
-            housingRate=18786,
-            period="Academic Year",
-            isSharedBathroom=None,
-            isAirConditioned=True,
-            buildingId=None,  # 3rd and West is not in the seed data as of 2026-11-07
-        ),
-        Room(
-            capacityRangeStart=2,
-            capacityRangeEnd=2,
-            capacityPer="Room",
-            category="Traditional - Double",
-            features=None,
-            housingRate=6128,
-            period="Academic Year",
-            isSharedBathroom=None,
-            isAirConditioned=True,
-            buildingId=WINDSOR_ID,
-        ),
-        # Last room in 2027-28
-        Room(
-            capacityRangeStart=2,
-            capacityRangeEnd=2,
-            capacityPer="Bedrooom",
-            category="Full Suite - Double",
-            features=None,
-            housingRate=8250,
-            period="Academic Year",
-            isSharedBathroom=None,
-            isAirConditioned=True,
-            buildingId=WINIFRED_PARKER_ID,
-        ),
-    ],
-)
-def test_includes_correct_rooms(housing_rates_27_28: list[Room], room: Room):
-    assert room in housing_rates_27_28
+@pytest.fixture(scope="module")
+def matcher() -> Matcher:
+    return Matcher()
 
 
-def test_capacity_range():
-    # In the 2027-2028 CSV, the only entries that have a range are those for 2026-2027
-    housing_rates_26_27 = get_rooms_from_housing_rates_csv(ROOM_RATES_27_28_CSV, 2026)
-    room = Room(
+@pytest.fixture(scope="module")
+def windsor_id(matcher: Matcher) -> str:
+    return matcher.match("Windsor")[0].id
+
+
+@pytest.fixture(scope="module")
+def winifred_parker_id(matcher: Matcher) -> str:
+    return matcher.match("Winifred Parker")[0].id
+
+
+@pytest.fixture(scope="module")
+def mccutcheon_id(matcher: Matcher) -> str:
+    return matcher.match("McCutcheon")[0].id
+
+
+def test_row_from_str():
+    row = HousingRatesRow.from_str(
+        "75,Suite w/shrd bath,2027-28,Undergraduate Housing,Full Suite - Double,Academic Year,8250,Academic Year 2027-28,Winifred Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE,Suite w/shrd bathWinifred Parker Hall2027-28"
+    )
+    expected = HousingRatesRow(
+        room_type_id="75",
+        room_type="Suite w/shrd bath",
+        term="2027-28",
+        housing_type="Undergraduate Housing",
+        category="Full Suite - Double",
+        period="Academic Year",
+        amount="8250",
+        term_description="Academic Year 2027-28",
+        building="Winifred Parker Hall",
+        location="West Lafayette",
+        ur_boiler_apartment="FALSE",
+        capacity="2/Bedroom",
+        air_conditioning="TRUE",
+        bath="TRUE",
+        pk="Suite w/shrd bathWinifred Parker Hall2027-28",
+    )
+    assert row == expected
+
+
+def test_get_windsor_room_from_row(matcher: Matcher, windsor_id: str):
+    row = HousingRatesRow.from_str(
+        "4,Double w/priv bath,2027-28,Undergraduate Housing,Traditional - Double,Academic Year,6128,Academic Year 2027-28,Windsor Halls,West Lafayette,FALSE,2/Room,TRUE,TRUE,Double w/priv bathWindsor Halls2027-28"
+    )
+    expected = Room(
+        capacityRangeStart=2,
+        capacityRangeEnd=2,
+        capacityPer="Room",
+        roomType="Double w/priv bath",
+        features=None,
+        housingRate=6128,
+        period="Academic Year",
+        isSharedBathroom=None,
+        isAirConditioned=True,
+        buildingId=windsor_id,
+    )
+    assert _get_room_from_row(row, matcher) == expected
+
+
+def test_get_winifred_parker_room_from_row(matcher: Matcher, winifred_parker_id: str):
+    row = HousingRatesRow.from_str(
+        "75,Suite w/shrd bath,2027-28,Undergraduate Housing,Full Suite - Double,Academic Year,8250,Academic Year 2027-28,Winifred Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE,Suite w/shrd bathWinifred Parker Hall2027-28"
+    )
+    expected = Room(
+        capacityRangeStart=2,
+        capacityRangeEnd=2,
+        capacityPer="Bedroom",
+        roomType="Suite w/shrd bath",
+        features=None,
+        housingRate=8250,
+        period="Academic Year",
+        isSharedBathroom=None,
+        isAirConditioned=True,
+        buildingId=winifred_parker_id,
+    )
+    assert _get_room_from_row(row, matcher) == expected
+
+
+def test_get_ranged_capacity_room_from_row(matcher: Matcher, mccutcheon_id: str):
+    row = HousingRatesRow.from_str(
+        # From the 2026-27 CSV
+        "193,Quad Plus w/AC,2026-27,Undergraduate Housing,Traditional - Quad,Academic Year,4930,Academic Year 2026-27,McCutcheon Hall,West Lafayette,FALSE,6-8/Room,TRUE,FALSE"
+    )
+    expected = Room(
         capacityRangeStart=6,
         capacityRangeEnd=8,
         capacityPer="Room",
-        category="Traditional - Quad",
+        roomType="Quad Plus w/AC",
         features=None,
         housingRate=4930,
         period="Academic Year",
         isSharedBathroom=None,
         isAirConditioned=True,
-        buildingId=MCCUTCHEON_ID,
+        buildingId=mccutcheon_id,
     )
-    assert room in housing_rates_26_27
+    assert _get_room_from_row(row, matcher) == expected
 
 
 @pytest.mark.parametrize("term,expected", [("2026-27", 2026), ("2027-28", 2027)])
