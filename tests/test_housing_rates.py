@@ -143,3 +143,16 @@ def test_get_starting_year_from_term_field(term: str, expected: int):
 )
 def test_parse_capacity_field(capacity_str: str, expected: tuple[int, int, str | None]):
     assert _parse_capacity(capacity_str) == expected
+
+
+def test_get_rooms_from_housing_rates_csv_restricts_year(matcher: Matcher):
+    csv = """Room Type ID,Room Type,Term,Housing Type,Category,Period,Amount,Term Description,Building,Location,UR Boiler Apartment,Capacity,Air Conditioning,Bath,PK
+0,Housing 2026,2026-27,n/a,n/a,Academic Year,8250,Academic Year 2026-27,Winifred Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE,Suite w/shrd bathWinifred Parker Hall2027-28
+0,Housing 2027,2027-28,n/a,n/a,Academic Year,8250,Academic Year 2027-28,Winifred Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE,Suite w/shrd bathWinifred Parker Hall2027-28
+"""
+    results_2027 = tuple(get_rooms_from_housing_rates_csv(csv, 2027, matcher=matcher))
+    assert len(results_2027) == 1
+    assert results_2027[0].roomType == "Housing 2027"
+    results_2026 = tuple(get_rooms_from_housing_rates_csv(csv, 2026, matcher=matcher))
+    assert len(results_2026) == 1
+    assert results_2026[0].roomType == "Housing 2026"

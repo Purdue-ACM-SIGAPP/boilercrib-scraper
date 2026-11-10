@@ -143,7 +143,6 @@ def get_rooms_from_housing_rates_csv(
         row = HousingRatesRow.from_dict(row_dict)
 
         # Filter by starting year
-        # TODO test
         row_starting_year = _get_starting_year_from_term(row.term)
         if row_starting_year is None:
             logger.error(
