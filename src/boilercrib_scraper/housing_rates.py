@@ -156,7 +156,6 @@ def get_rooms_from_housing_rates_csv(
             continue
 
         # Filter by location
-        # TODO test
         if row.location != location:
             logger.debug(f"Row {i}: location {row.location} != {location}, skipping.")
             continue
