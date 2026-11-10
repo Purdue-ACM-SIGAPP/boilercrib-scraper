@@ -45,7 +45,7 @@ class Room(BaseModel):
     capacityRangeStart: int | None = None
     capacityRangeEnd: int | None = None
     capacityPer: str | None = None
-    category: str | None = None
+    roomType: str | None = None
     features: list[str] | None = None
     housingRate: float | None = None
     period: str | None = None
