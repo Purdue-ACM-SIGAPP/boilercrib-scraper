@@ -68,7 +68,7 @@ def get_rooms_from_housing_rates_csv(
         # TODO test
         row_starting_year = _get_starting_year_from_term(row.term)
         if row_starting_year is None:
-            logger.error(f'Row {i}: Failed to get starting year from term "{row.term}"')
+            logger.error(f"Row {i}: Failed to get starting year from term '{row.term}'")
             continue  # Maybe this should raise an exception instead of continuing
         if row_starting_year != starting_year:
             logger.debug(
@@ -86,7 +86,7 @@ def get_rooms_from_housing_rates_csv(
         # Parse capacity
         parse_capacity_result = _parse_capacity(row.capacity)
         if parse_capacity_result is None:
-            logger.error(f'Row {i}: Failed to parse capacity "{row.capacity}"')
+            logger.error(f"Row {i}: Failed to parse capacity '{row.capacity}'")
             continue  # Maybe this should raise an exception instead of continuing
         capacity_range_start, capacity_range_end, capacity_per = parse_capacity_result
 
