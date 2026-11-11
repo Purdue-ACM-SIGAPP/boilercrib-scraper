@@ -1,7 +1,8 @@
-from httpx import Client
-from time import monotonic, sleep
-from json import load, dump
+from json import dump, load
 from pathlib import Path
+from time import monotonic, sleep
+
+from httpx import Client
 
 # makes a client
 client = Client()
@@ -16,9 +17,8 @@ cache = {}
 try:
     with open(CACHE_FILE, "r") as f:
         cache = load(f)
-except:
-    # since cache is initialized as a dictionary before nothing needs to be changed
-    pass
+except FileNotFoundError:
+    print("No cache file, making one.")
 
 def fetch(url):
     global last_request_time
