@@ -163,7 +163,9 @@ def test_get_rooms_from_housing_rates_csv_restricts_location(matcher: Matcher):
 0,Housing West Lafayette,2027-28,n/a,n/a,Academic Year,8250,Academic Year 2027-28,Winifred Parker Hall,West Lafayette,FALSE,2/Bedroom,TRUE,TRUE,Suite w/shrd bathWinifred Parker Hall2027-28
 0,Housing Indiana,2027-28,n/a,n/a,Academic Year,8250,Academic Year 2027-28,Winifred Parker Hall,Indiana,FALSE,2/Bedroom,TRUE,TRUE,Suite w/shrd bathWinifred Parker Hall2027-28
 """
-    results_wl = tuple(get_rooms_from_housing_rates_csv(csv, 2027, "West Lafayette", matcher))
+    results_wl = tuple(
+        get_rooms_from_housing_rates_csv(csv, 2027, "West Lafayette", matcher)
+    )
     assert len(results_wl) == 1
     assert results_wl[0].roomType == "Housing West Lafayette"
     results_in = tuple(get_rooms_from_housing_rates_csv(csv, 2027, "Indiana", matcher))
