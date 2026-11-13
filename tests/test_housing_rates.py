@@ -168,8 +168,6 @@ def test_get_rooms_from_housing_rates_csv_restricts_location(matcher: Matcher):
     )
     assert len(results_wl) == 1
     assert results_wl[0].roomType == "Housing West Lafayette"
-    results_in = tuple(
-        get_rooms_from_housing_rates_csv(csv, 2027, "Indiana", matcher)
-    )
+    results_in = tuple(get_rooms_from_housing_rates_csv(csv, 2027, "Indiana", matcher))
     assert len(results_in) == 1
     assert results_in[0].roomType == "Housing Indiana"
